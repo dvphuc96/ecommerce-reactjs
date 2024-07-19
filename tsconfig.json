@@ -27,10 +27,10 @@
       "guards": ["guards"],
       "hooks": ["hooks"],
       "pages": ["pages"],
-      "redux": ["redux"],
       "router": ["router"],
       "schema": ["schema"],
       "services": ["services"],
+      "store": ["store"],
       "types": ["types"],
       "utils": ["utils"]
     }
