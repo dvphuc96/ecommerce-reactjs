@@ -1,0 +1,9 @@
+@import '@styles/mixin.module';
+@import '@styles/variable.module';
+// header
+.boxIcon {
+  @include radius_common(50%);
+  background-color: $primary_color;
+  width: 26px;
+  height: 26px;
+}

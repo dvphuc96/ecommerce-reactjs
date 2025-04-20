@@ -1,2 +1,4 @@
-export * from './Header'
-export * from './Footer'
+export * from './Button';
+export * from './BoxIcon';
+export * from './Header';
+export * from './Footer';

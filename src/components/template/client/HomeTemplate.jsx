@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Button } from '@components';
 
 export const HomeTemplate = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <div>
+      <Button />
+    </div>
+  );
+};
