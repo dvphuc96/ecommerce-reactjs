@@ -16,4 +16,6 @@ npm install normalize.css
 npm install -D sass
 npm install styled-components
 npm install react-router-dom
+npm install tailwindcss @tailwindcss/vite
+npm install antd
 ```
