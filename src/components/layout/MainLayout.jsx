@@ -7,18 +7,20 @@ import styles from './styles.module.scss';
 export const MainLayout = () => {
   const { wrapLayout, container } = styles;
   return (
-    <main className={wrapLayout}>
-      <div className={container}>
-        <Header />
-        <Outlet />
-        {/* <FloatButton.BackTop
+    <>
+      <Header />
+      <main className={wrapLayout}>
+        <div className={container}>
+          <Outlet />
+          {/* <FloatButton.BackTop
       icon= {<i className="fa-solid fa-arrow-turn-up"></i>}
       type="primary"
       /> */}
-        <Footer />
-        {/* <ScrollToTop/> */}
-      </div>
-    </main>
+          <Footer />
+          {/* <ScrollToTop/> */}
+        </div>
+      </main>
+    </>
   );
 };
 
